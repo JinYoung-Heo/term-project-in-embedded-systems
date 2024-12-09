@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "cjson.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "lcdmanager.h": "c",
+        "buzzermanager.h": "c",
+        "probmanager.h": "c",
+        "stdbool.h": "c",
+        "stm32f10x.h": "c",
+        "stm32f10x_gpio.h": "c",
+        "bluetoothmanager.h": "c",
+        "string": "c",
+        "stm32f10x_usart.h": "c",
+        "stm32f10x_rcc.h": "c"
+    },
+    "cmake.sourceDirectory": "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/code/cJSON"
+}

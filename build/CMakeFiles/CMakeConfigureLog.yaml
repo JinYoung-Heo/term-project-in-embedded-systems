@@ -1,0 +1,1234 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/3.31.1/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_492fc/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_492fc.dir\\build.make CMakeFiles/cmTC_492fc.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai'
+        Building C object CMakeFiles/cmTC_492fc.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Rev3, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_492fc.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\wlsdu\\AppData\\Local\\Temp\\ccp55W5d.s
+        GNU C17 (Rev3, Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "D:/a/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 9ededbb617523f3ae037d5140d325cc4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\wlsdu\\AppData\\Local\\Temp\\ccp55W5d.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_492fc.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_492fc.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_492fc.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_492fc.dir/objects.a @CMakeFiles\\cmTC_492fc.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a -Wl,--no-whole-archive -o cmTC_492fc.exe -Wl,--out-implib,libcmTC_492fc.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Rev3, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_492fc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_492fc.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\wlsdu\\AppData\\Local\\Temp\\cc1iyafr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_492fc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a --no-whole-archive --out-implib libcmTC_492fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2 version 13.2.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\wlsdu\\AppData\\Local\\Temp\\cc1iyafr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_492fc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a --no-whole-archive --out-implib libcmTC_492fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_492fc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_492fc.'
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include] ==> [C:/msys64/ucrt64/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        implicit include dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/msys64/ucrt64/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_492fc/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_492fc.dir\\build.make CMakeFiles/cmTC_492fc.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7crxai']
+        ignore line: [Building C object CMakeFiles/cmTC_492fc.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Rev3  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_492fc.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\wlsdu\\AppData\\Local\\Temp\\ccp55W5d.s]
+        ignore line: [GNU C17 (Rev3  Built by MSYS2 project) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 9ededbb617523f3ae037d5140d325cc4]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj C:\\Users\\wlsdu\\AppData\\Local\\Temp\\ccp55W5d.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_492fc.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_492fc.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_492fc.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_492fc.dir/objects.a]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_492fc.dir/objects.a @CMakeFiles\\cmTC_492fc.dir\\objects1.rsp]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a -Wl --no-whole-archive -o cmTC_492fc.exe -Wl --out-implib libcmTC_492fc.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --disable-libstdcxx-debug --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Rev3  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_492fc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_492fc.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\wlsdu\\AppData\\Local\\Temp\\cc1iyafr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_492fc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a --no-whole-archive --out-implib libcmTC_492fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\wlsdu\\AppData\\Local\\Temp\\cc1iyafr.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_492fc.exe] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_492fc.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_492fc.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [collect2 version 13.2.0]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\wlsdu\\AppData\\Local\\Temp\\cc1iyafr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_492fc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_492fc.dir/objects.a --no-whole-archive --out-implib libcmTC_492fc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/crt2.o] ==> [C:/msys64/ucrt64/lib/crt2.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/default-manifest.o] ==> [C:/msys64/ucrt64/lib/default-manifest.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc] ==> [C:/msys64/ucrt64/lib/gcc]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib] ==> [C:/msys64/ucrt64/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o;C:/msys64/ucrt64/lib/default-manifest.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0;C:/msys64/ucrt64/lib/gcc;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_stdc89"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-z49em3"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-z49em3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_stdc89"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-z49em3'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e7b9f/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e7b9f.dir\\build.make CMakeFiles/cmTC_e7b9f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-z49em3'
+        Building C object CMakeFiles/cmTC_e7b9f.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_stdc89  -std=c89 -o CMakeFiles\\cmTC_e7b9f.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z49em3\\src.c
+        Linking C executable cmTC_e7b9f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e7b9f.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e7b9f.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e7b9f.dir/objects.a @CMakeFiles\\cmTC_e7b9f.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_e7b9f.dir/objects.a -Wl,--no-whole-archive -o cmTC_e7b9f.exe -Wl,--out-implib,libcmTC_e7b9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e7b9f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-z49em3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_pedantic"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pezfo7"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pezfo7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89"
+    buildResult:
+      variable: "FLAG_SUPPORTED_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pezfo7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_fb76d/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fb76d.dir\\build.make CMakeFiles/cmTC_fb76d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pezfo7'
+        Building C object CMakeFiles/cmTC_fb76d.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -o CMakeFiles\\cmTC_fb76d.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pezfo7\\src.c
+        Linking C executable cmTC_fb76d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fb76d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fb76d.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_fb76d.dir/objects.a @CMakeFiles\\cmTC_fb76d.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89  -Wl,--whole-archive CMakeFiles\\cmTC_fb76d.dir/objects.a -Wl,--no-whole-archive -o cmTC_fb76d.exe -Wl,--out-implib,libcmTC_fb76d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_fb76d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pezfo7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wall"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w7hut5"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w7hut5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wall"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w7hut5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_35cdd/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_35cdd.dir\\build.make CMakeFiles/cmTC_35cdd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w7hut5'
+        Building C object CMakeFiles/cmTC_35cdd.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -o CMakeFiles\\cmTC_35cdd.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w7hut5\\src.c
+        Linking C executable cmTC_35cdd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_35cdd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_35cdd.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_35cdd.dir/objects.a @CMakeFiles\\cmTC_35cdd.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic  -Wl,--whole-archive CMakeFiles\\cmTC_35cdd.dir/objects.a -Wl,--no-whole-archive -o cmTC_35cdd.exe -Wl,--out-implib,libcmTC_35cdd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_35cdd.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w7hut5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wextra"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-efbpcp"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-efbpcp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-efbpcp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_38864/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_38864.dir\\build.make CMakeFiles/cmTC_38864.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-efbpcp'
+        Building C object CMakeFiles/cmTC_38864.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -o CMakeFiles\\cmTC_38864.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efbpcp\\src.c
+        Linking C executable cmTC_38864.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_38864.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_38864.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_38864.dir/objects.a @CMakeFiles\\cmTC_38864.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall  -Wl,--whole-archive CMakeFiles\\cmTC_38864.dir/objects.a -Wl,--no-whole-archive -o cmTC_38864.exe -Wl,--out-implib,libcmTC_38864.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_38864.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-efbpcp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Werror"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-305ct2"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-305ct2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Werror"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-305ct2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3afb3/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3afb3.dir\\build.make CMakeFiles/cmTC_3afb3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-305ct2'
+        Building C object CMakeFiles/cmTC_3afb3.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -o CMakeFiles\\cmTC_3afb3.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-305ct2\\src.c
+        Linking C executable cmTC_3afb3.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3afb3.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3afb3.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3afb3.dir/objects.a @CMakeFiles\\cmTC_3afb3.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra  -Wl,--whole-archive CMakeFiles\\cmTC_3afb3.dir/objects.a -Wl,--no-whole-archive -o cmTC_3afb3.exe -Wl,--out-implib,libcmTC_3afb3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3afb3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-305ct2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictprototypes"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-sl9wfd"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-sl9wfd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictprototypes"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-sl9wfd'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_36603/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_36603.dir\\build.make CMakeFiles/cmTC_36603.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-sl9wfd'
+        Building C object CMakeFiles/cmTC_36603.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -o CMakeFiles\\cmTC_36603.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sl9wfd\\src.c
+        Linking C executable cmTC_36603.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_36603.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_36603.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_36603.dir/objects.a @CMakeFiles\\cmTC_36603.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_36603.dir/objects.a -Wl,--no-whole-archive -o cmTC_36603.exe -Wl,--out-implib,libcmTC_36603.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_36603.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-sl9wfd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wwritestrings"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pxez3q"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pxez3q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pxez3q'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_25e69/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_25e69.dir\\build.make CMakeFiles/cmTC_25e69.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pxez3q'
+        Building C object CMakeFiles/cmTC_25e69.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -o CMakeFiles\\cmTC_25e69.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxez3q\\src.c
+        Linking C executable cmTC_25e69.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_25e69.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_25e69.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_25e69.dir/objects.a @CMakeFiles\\cmTC_25e69.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  -Wl,--whole-archive CMakeFiles\\cmTC_25e69.dir/objects.a -Wl,--no-whole-archive -o cmTC_25e69.exe -Wl,--out-implib,libcmTC_25e69.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_25e69.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pxez3q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wshadow"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-32d9zx"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-32d9zx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-32d9zx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2d195/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2d195.dir\\build.make CMakeFiles/cmTC_2d195.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-32d9zx'
+        Building C object CMakeFiles/cmTC_2d195.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -o CMakeFiles\\cmTC_2d195.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-32d9zx\\src.c
+        Linking C executable cmTC_2d195.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2d195.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2d195.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2d195.dir/objects.a @CMakeFiles\\cmTC_2d195.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  -Wl,--whole-archive CMakeFiles\\cmTC_2d195.dir/objects.a -Wl,--no-whole-archive -o cmTC_2d195.exe -Wl,--out-implib,libcmTC_2d195.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2d195.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-32d9zx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Winitself"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-kpc38b"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-kpc38b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Winitself"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-kpc38b'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e70b9/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e70b9.dir\\build.make CMakeFiles/cmTC_e70b9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-kpc38b'
+        Building C object CMakeFiles/cmTC_e70b9.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -o CMakeFiles\\cmTC_e70b9.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kpc38b\\src.c
+        Linking C executable cmTC_e70b9.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e70b9.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e70b9.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e70b9.dir/objects.a @CMakeFiles\\cmTC_e70b9.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  -Wl,--whole-archive CMakeFiles\\cmTC_e70b9.dir/objects.a -Wl,--no-whole-archive -o cmTC_e70b9.exe -Wl,--out-implib,libcmTC_e70b9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e70b9.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-kpc38b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastalign"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-eg3l39"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-eg3l39"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-eg3l39'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_263e2/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_263e2.dir\\build.make CMakeFiles/cmTC_263e2.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-eg3l39'
+        Building C object CMakeFiles/cmTC_263e2.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -o CMakeFiles\\cmTC_263e2.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eg3l39\\src.c
+        Linking C executable cmTC_263e2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_263e2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_263e2.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_263e2.dir/objects.a @CMakeFiles\\cmTC_263e2.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  -Wl,--whole-archive CMakeFiles\\cmTC_263e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_263e2.exe -Wl,--out-implib,libcmTC_263e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_263e2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-eg3l39'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformat2"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-cifajt"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-cifajt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformat2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-cifajt'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_013f7/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_013f7.dir\\build.make CMakeFiles/cmTC_013f7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-cifajt'
+        Building C object CMakeFiles/cmTC_013f7.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -o CMakeFiles\\cmTC_013f7.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cifajt\\src.c
+        Linking C executable cmTC_013f7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_013f7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_013f7.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_013f7.dir/objects.a @CMakeFiles\\cmTC_013f7.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  -Wl,--whole-archive CMakeFiles\\cmTC_013f7.dir/objects.a -Wl,--no-whole-archive -o cmTC_013f7.exe -Wl,--out-implib,libcmTC_013f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_013f7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-cifajt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingprototypes"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-r29556"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-r29556"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingprototypes"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-r29556'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_fef7e/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fef7e.dir\\build.make CMakeFiles/cmTC_fef7e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-r29556'
+        Building C object CMakeFiles/cmTC_fef7e.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -o CMakeFiles\\cmTC_fef7e.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r29556\\src.c
+        Linking C executable cmTC_fef7e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_fef7e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_fef7e.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_fef7e.dir/objects.a @CMakeFiles\\cmTC_fef7e.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  -Wl,--whole-archive CMakeFiles\\cmTC_fef7e.dir/objects.a -Wl,--no-whole-archive -o cmTC_fef7e.exe -Wl,--out-implib,libcmTC_fef7e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_fef7e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-r29556'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictoverflow2"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w9v4b9"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w9v4b9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictoverflow2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w9v4b9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b9838/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b9838.dir\\build.make CMakeFiles/cmTC_b9838.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w9v4b9'
+        Building C object CMakeFiles/cmTC_b9838.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -o CMakeFiles\\cmTC_b9838.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9v4b9\\src.c
+        Linking C executable cmTC_b9838.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b9838.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b9838.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b9838.dir/objects.a @CMakeFiles\\cmTC_b9838.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  -Wl,--whole-archive CMakeFiles\\cmTC_b9838.dir/objects.a -Wl,--no-whole-archive -o cmTC_b9838.exe -Wl,--out-implib,libcmTC_b9838.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b9838.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-w9v4b9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastqual"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7j1oy7"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7j1oy7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastqual"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7j1oy7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2eacb/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2eacb.dir\\build.make CMakeFiles/cmTC_2eacb.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7j1oy7'
+        Building C object CMakeFiles/cmTC_2eacb.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -o CMakeFiles\\cmTC_2eacb.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7j1oy7\\src.c
+        Linking C executable cmTC_2eacb.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2eacb.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2eacb.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2eacb.dir/objects.a @CMakeFiles\\cmTC_2eacb.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  -Wl,--whole-archive CMakeFiles\\cmTC_2eacb.dir/objects.a -Wl,--no-whole-archive -o cmTC_2eacb.exe -Wl,--out-implib,libcmTC_2eacb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2eacb.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7j1oy7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wundef"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-dlzegc"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-dlzegc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-dlzegc'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_949bd/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_949bd.dir\\build.make CMakeFiles/cmTC_949bd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-dlzegc'
+        Building C object CMakeFiles/cmTC_949bd.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -o CMakeFiles\\cmTC_949bd.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dlzegc\\src.c
+        Linking C executable cmTC_949bd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_949bd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_949bd.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_949bd.dir/objects.a @CMakeFiles\\cmTC_949bd.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  -Wl,--whole-archive CMakeFiles\\cmTC_949bd.dir/objects.a -Wl,--no-whole-archive -o cmTC_949bd.exe -Wl,--out-implib,libcmTC_949bd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_949bd.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-dlzegc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchdefault"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7jw029"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7jw029"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchdefault"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7jw029'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_5e810/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5e810.dir\\build.make CMakeFiles/cmTC_5e810.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7jw029'
+        Building C object CMakeFiles/cmTC_5e810.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -o CMakeFiles\\cmTC_5e810.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7jw029\\src.c
+        Linking C executable cmTC_5e810.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5e810.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5e810.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_5e810.dir/objects.a @CMakeFiles\\cmTC_5e810.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  -Wl,--whole-archive CMakeFiles\\cmTC_5e810.dir/objects.a -Wl,--no-whole-archive -o cmTC_5e810.exe -Wl,--out-implib,libcmTC_5e810.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5e810.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-7jw029'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wconversion"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-9pibgi"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-9pibgi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wconversion"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-9pibgi'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0b400/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0b400.dir\\build.make CMakeFiles/cmTC_0b400.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-9pibgi'
+        Building C object CMakeFiles/cmTC_0b400.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -o CMakeFiles\\cmTC_0b400.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pibgi\\src.c
+        Linking C executable cmTC_0b400.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0b400.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0b400.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_0b400.dir/objects.a @CMakeFiles\\cmTC_0b400.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  -Wl,--whole-archive CMakeFiles\\cmTC_0b400.dir/objects.a -Wl,--no-whole-archive -o cmTC_0b400.exe -Wl,--out-implib,libcmTC_0b400.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0b400.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-9pibgi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wccompat"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-k249oq"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-k249oq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wccompat"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-k249oq'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ca45f/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ca45f.dir\\build.make CMakeFiles/cmTC_ca45f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-k249oq'
+        Building C object CMakeFiles/cmTC_ca45f.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -o CMakeFiles\\cmTC_ca45f.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k249oq\\src.c
+        Linking C executable cmTC_ca45f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ca45f.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ca45f.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ca45f.dir/objects.a @CMakeFiles\\cmTC_ca45f.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  -Wl,--whole-archive CMakeFiles\\cmTC_ca45f.dir/objects.a -Wl,--no-whole-archive -o cmTC_ca45f.exe -Wl,--out-implib,libcmTC_ca45f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ca45f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-k249oq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fstackprotectorstrong"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-bt3d4s"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-bt3d4s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat"
+    buildResult:
+      variable: "FLAG_SUPPORTED_fstackprotectorstrong"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-bt3d4s'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0b5cc/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0b5cc.dir\\build.make CMakeFiles/cmTC_0b5cc.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-bt3d4s'
+        Building C object CMakeFiles/cmTC_0b5cc.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -o CMakeFiles\\cmTC_0b5cc.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bt3d4s\\src.c
+        Linking C executable cmTC_0b5cc.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0b5cc.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0b5cc.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_0b5cc.dir/objects.a @CMakeFiles\\cmTC_0b5cc.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  -Wl,--whole-archive CMakeFiles\\cmTC_0b5cc.dir/objects.a -Wl,--no-whole-archive -o cmTC_0b5cc.exe -Wl,--out-implib,libcmTC_0b5cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0b5cc.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-bt3d4s'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcomma"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-1128nx"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-1128nx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcomma"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-1128nx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f29ea/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f29ea.dir\\build.make CMakeFiles/cmTC_f29ea.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-1128nx'
+        Building C object CMakeFiles/cmTC_f29ea.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -o CMakeFiles\\cmTC_f29ea.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1128nx\\src.c
+        gcc.exe: error: unrecognized command-line option '-Wcomma'; did you mean '-Wcomment'?
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_f29ea.dir\\build.make:80: CMakeFiles/cmTC_f29ea.dir/src.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-1128nx'
+        mingw32-make: *** [Makefile:132: cmTC_f29ea/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wdoublepromotion"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wvasqx"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wvasqx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wvasqx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_7c8db/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7c8db.dir\\build.make CMakeFiles/cmTC_7c8db.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wvasqx'
+        Building C object CMakeFiles/cmTC_7c8db.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wdouble-promotion -o CMakeFiles\\cmTC_7c8db.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvasqx\\src.c
+        Linking C executable cmTC_7c8db.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7c8db.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_7c8db.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_7c8db.dir/objects.a @CMakeFiles\\cmTC_7c8db.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  -Wl,--whole-archive CMakeFiles\\cmTC_7c8db.dir/objects.a -Wl,--no-whole-archive -o cmTC_7c8db.exe -Wl,--out-implib,libcmTC_7c8db.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_7c8db.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wvasqx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wparentheses"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wb2d27"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wb2d27"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wparentheses"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wb2d27'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_59adb/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_59adb.dir\\build.make CMakeFiles/cmTC_59adb.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wb2d27'
+        Building C object CMakeFiles/cmTC_59adb.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion    -Wparentheses -o CMakeFiles\\cmTC_59adb.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wb2d27\\src.c
+        Linking C executable cmTC_59adb.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_59adb.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_59adb.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_59adb.dir/objects.a @CMakeFiles\\cmTC_59adb.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion  -Wl,--whole-archive CMakeFiles\\cmTC_59adb.dir/objects.a -Wl,--no-whole-archive -o cmTC_59adb.exe -Wl,--out-implib,libcmTC_59adb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_59adb.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-wb2d27'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformatoverflow"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-flaunx"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-flaunx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformatoverflow"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-flaunx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d5c33/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d5c33.dir\\build.make CMakeFiles/cmTC_d5c33.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-flaunx'
+        Building C object CMakeFiles/cmTC_d5c33.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses    -Wformat-overflow -o CMakeFiles\\cmTC_d5c33.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-flaunx\\src.c
+        Linking C executable cmTC_d5c33.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d5c33.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d5c33.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d5c33.dir/objects.a @CMakeFiles\\cmTC_d5c33.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses  -Wl,--whole-archive CMakeFiles\\cmTC_d5c33.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5c33.exe -Wl,--out-implib,libcmTC_d5c33.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d5c33.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-flaunx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wunusedmacros"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pulwe9"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pulwe9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wunusedmacros"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pulwe9'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_013fe/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_013fe.dir\\build.make CMakeFiles/cmTC_013fe.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pulwe9'
+        Building C object CMakeFiles/cmTC_013fe.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow    -Wunused-macros -o CMakeFiles\\cmTC_013fe.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pulwe9\\src.c
+        Linking C executable cmTC_013fe.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_013fe.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_013fe.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_013fe.dir/objects.a @CMakeFiles\\cmTC_013fe.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow  -Wl,--whole-archive CMakeFiles\\cmTC_013fe.dir/objects.a -Wl,--no-whole-archive -o cmTC_013fe.exe -Wl,--out-implib,libcmTC_013fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_013fe.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-pulwe9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mcy3u0"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mcy3u0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingvariabledeclarations"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mcy3u0'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_eb267/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_eb267.dir\\build.make CMakeFiles/cmTC_eb267.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mcy3u0'
+        Building C object CMakeFiles/cmTC_eb267.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles\\cmTC_eb267.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mcy3u0\\src.c
+        gcc.exe: error: unrecognized command-line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_eb267.dir\\build.make:80: CMakeFiles/cmTC_eb267.dir/src.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mcy3u0'
+        mingw32-make: *** [Makefile:132: cmTC_eb267/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-xuem4m"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-xuem4m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wusedbutmarkedunused"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-xuem4m'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_30071/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_30071.dir\\build.make CMakeFiles/cmTC_30071.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-xuem4m'
+        Building C object CMakeFiles/cmTC_30071.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wused-but-marked-unused -o CMakeFiles\\cmTC_30071.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xuem4m\\src.c
+        gcc.exe: error: unrecognized command-line option '-Wused-but-marked-unused'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_30071.dir\\build.make:80: CMakeFiles/cmTC_30071.dir/src.c.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-xuem4m'
+        mingw32-make: *** [Makefile:132: cmTC_30071/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchenum"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-4ccbhg"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-4ccbhg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchenum"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-4ccbhg'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_893fd/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_893fd.dir\\build.make CMakeFiles/cmTC_893fd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-4ccbhg'
+        Building C object CMakeFiles/cmTC_893fd.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wswitch-enum -o CMakeFiles\\cmTC_893fd.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ccbhg\\src.c
+        Linking C executable cmTC_893fd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_893fd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_893fd.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_893fd.dir/objects.a @CMakeFiles\\cmTC_893fd.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros  -Wl,--whole-archive CMakeFiles\\cmTC_893fd.dir/objects.a -Wl,--no-whole-archive -o cmTC_893fd.exe -Wl,--out-implib,libcmTC_893fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_893fd.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-4ccbhg'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fvisibilityhidden"
+    directories:
+      source: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mt9vf7"
+      binary: "C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mt9vf7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum"
+    buildResult:
+      variable: "FLAG_SUPPORTED_fvisibilityhidden"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mt9vf7'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_61ac5/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_61ac5.dir\\build.make CMakeFiles/cmTC_61ac5.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mt9vf7'
+        Building C object CMakeFiles/cmTC_61ac5.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum    -fvisibility=hidden -o CMakeFiles\\cmTC_61ac5.dir\\src.c.obj -c C:\\Users\\wlsdu\\Desktop\\developer\\term-project-in-embedded-systems\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mt9vf7\\src.c
+        Linking C executable cmTC_61ac5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_61ac5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_61ac5.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_61ac5.dir/objects.a @CMakeFiles\\cmTC_61ac5.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum  -Wl,--whole-archive CMakeFiles\\cmTC_61ac5.dir/objects.a -Wl,--no-whole-archive -o cmTC_61ac5.exe -Wl,--out-implib,libcmTC_61ac5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_61ac5.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/wlsdu/Desktop/developer/term-project-in-embedded-systems/build/CMakeFiles/CMakeScratch/TryCompile-mt9vf7'
+        
+      exitCode: 0
+...
